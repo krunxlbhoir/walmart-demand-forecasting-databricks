@@ -17,33 +17,29 @@ Unity Catalog is used for **data governance**, **table management**, and **volum
 ## 📂 Project Structure
 
 walmart-demand-forecasting-databricks/
-|
 ├── data/
-|   └── raw/ 
-|       └── walmart/ 
-|           ├── train.csv
-|           ├── test.csv
-|           ├── features.csv
-|           └── stores.csv 
-│
+│   ├── raw/
+│   │   └── walmart/
+│   │       ├── train.csv
+│   │       ├── test.csv
+│   │       ├── features.csv
+│   │       └── stores.csv
 ├── notebooks/
-│ ├── 01_bronze_ingestion.ipynb
-│ ├── 02_silver_transformation.ipynb
-│ ├── 03_gold_feature_engineering.ipynb
-│ ├── 04_model_training.ipynb
-│ ├── 05_Gold_Insights_Dashboard.ipynb
-│ ├── 06_model_evaluation.ipynb
-│ └── 07_business_insights_dashboard.ipynb
-│
+│   ├── 01_bronze_ingestion.ipynb
+│   ├── 02_silver_transformation.ipynb
+│   ├── 03_gold_feature_engineering.ipynb
+│   ├── 04_model_training.ipynb
+│   ├── 05_Gold_Insights_Dashboard.ipynb
+│   ├── 06_model_evaluation.ipynb
+│   └── 07_business_insights_dashboard.ipynb
 ├── dashboards/
-│   ├──Actual sales vs Predicted Sales.png
-|   ├──Holiday vs Non-Holiday Sales.png
-|   ├──Temperature Impact on Sales.png
-|   ├──Top 5 stores by sales.png
-|   ├──Weekly Sales.png
-|   ├──error by stores.png
-|   ├──top 5 stores by revenue.png
-│
+│   ├── Actual_Sales_vs_Predicted_Sales.png
+│   ├── Holiday_vs_Non_Holiday_Sales.png
+│   ├── Temperature_Impact_on_Sales.png
+│   ├── Top_5_Stores_by_Sales.png
+│   ├── Top_5_Stores_by_Revenue.png
+│   ├── Weekly_Sales.png
+│   └── Error_by_Stores.png
 └── README.md
 
 ---
