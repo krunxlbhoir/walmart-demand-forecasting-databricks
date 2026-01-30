@@ -41,7 +41,8 @@ walmart-demand-forecasting-databricks/
 │   ├── Top_5_Stores_by_Revenue.png
 │   ├── Weekly_Sales.png
 │   └── Error_by_Stores.png
-└── README.md
+└── README.md 
+```
 
 ---
 
