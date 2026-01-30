@@ -14,8 +14,9 @@ Unity Catalog is used for **data governance**, **table management**, and **volum
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 walmart-demand-forecasting-databricks/
 ├── data/
 │   ├── raw/
